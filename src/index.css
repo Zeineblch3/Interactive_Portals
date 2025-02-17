@@ -1,8 +1,17 @@
-#root {
-  width: 100vw;
-  height: 100vh;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom global styles */
+html, body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif; /* Apply Poppins font */
+  height: 100%;
 }
 
-body {
-  margin: 0;
+#root {
+  @apply w-full h-full; /* Full width and height with Tailwind */
+  background: linear-gradient(to top, #f1c68b, #f1c68b, #79c0dc, #2d65cd); /* Background gradient */
 }
