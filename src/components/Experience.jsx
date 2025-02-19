@@ -61,7 +61,7 @@ export const Experience = ({ setIsInPortal }) => {
         setHovered={setHovered}
       >
         {/* Pass 'entered' state to Tree to control its fade */}
-        <Tree scale={1} position={[0, 0.3, -0.5]} hovered={hovered === "Tree"} entered={entered} />
+        <Tree scale={0.9} position={[0, 0.3, -0.5]} hovered={hovered === "Tree"} entered={entered} />
 
         {/* Scene will only appear inside the portal when entered */}
         {entered && <Ruin scale={1} position={[-0.1, -0.29, -3]} />}
