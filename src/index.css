@@ -11,7 +11,17 @@ html, body {
   height: 100%;
 }
 
-#root {
-  @apply w-full h-full; /* Full width and height with Tailwind */
-  background: linear-gradient(to top, #f1c68b, #f1c68b, #79c0dc, #2d65cd); /* Background gradient */
+@keyframes backgroundMove {
+  0% { background-position: 50% 100%; }
+  50% { background-position: 50% 0%; }
+  100% { background-position: 50% 100%; }
 }
+
+#root {
+  @apply w-full h-full;
+  background: linear-gradient(to top, #d7e3fc, #86a8ff, #4b71f8, #3761fb, #4978ff, #86a8ff, #d7e3fc);
+  background-size: 200% 200%;
+  animation: backgroundMove 8s ease-in-out infinite alternate;
+}
+
+
