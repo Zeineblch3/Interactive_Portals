@@ -41,7 +41,13 @@ export const Experience = ({ setIsInPortal }) => {
     <>
       <ambientLight intensity={0.5} />
       <Environment preset="sunset" />
-      <CameraControls ref={controlsRef} maxPolarAngle={Math.PI / 2} minPolarAngle={Math.PI / 2 - Math.PI * 0.4}  />
+      <CameraControls 
+        ref={controlsRef} 
+        maxPolarAngle={Math.PI / 2} 
+        minPolarAngle={Math.PI / 2 - Math.PI * 0.4}  
+        maxDistance={8} // Limit zoom out distance
+
+      />
 
       {/* Sahara Portal */}
       <Portal 
@@ -83,7 +89,7 @@ export const Experience = ({ setIsInPortal }) => {
         skyTexture="textures/sky.jpg"
         groundTexture="textures/ground.jpg"
         name="Cap Bon" 
-        color="#e4c04a" 
+        color="#4F7942" 
         position={[-3, 0, 0]}  
         rotation={[0, -Math.PI / 8, 0]}  
         active={active} 
