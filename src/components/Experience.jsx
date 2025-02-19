@@ -26,14 +26,14 @@ export const Experience = ({ setIsInPortal }) => {
       scene.getObjectByName(active).getWorldPosition(targetPosition);
       
       controlsRef.current.setLookAt(
-        0, 0, 5, 
+        0, 1.5, 5, 
         targetPosition.x, targetPosition.y, targetPosition.z, 
         true
       );
     } else {
       setIsInPortal(false); // Show Navbar when exiting a portal
       setEntered(false); // Reset scene appearance
-      controlsRef.current.setLookAt(0, 0, 10, 0, 0, 0, true);
+      controlsRef.current.setLookAt(0, 1.5, 10, 0, 0, 0, true);
     }
   }, [active]);
 
@@ -41,11 +41,12 @@ export const Experience = ({ setIsInPortal }) => {
     <>
       <ambientLight intensity={0.5} />
       <Environment preset="sunset" />
-      <CameraControls ref={controlsRef} maxPolarAngle={Math.PI / 2} minPolarAngle={Math.PI / 6} />
+      <CameraControls ref={controlsRef} maxPolarAngle={Math.PI / 2} minPolarAngle={Math.PI / 2 - Math.PI * 0.4}  />
 
       {/* Sahara Portal */}
       <Portal 
-        texture="textures/sahara.jpg" 
+        skyTexture="textures/sky.jpg"
+        groundTexture="textures/ground.jpg"
         name="Sahara" 
         color="#e09758" 
         active={active} 
@@ -54,16 +55,17 @@ export const Experience = ({ setIsInPortal }) => {
         setHovered={setHovered}
       >
         {/* Pass 'entered' state to Tree to control its fade */}
-        <Tree scale={1} position={[0, 0.1, 0]} hovered={hovered === "Tree"} entered={entered} />
+        <Tree scale={1} position={[0, 0.3, -0.5]} hovered={hovered === "Tree"} entered={entered} />
 
         {/* Scene will only appear inside the portal when entered */}
-        {entered && <Ruin scale={1} position={[-0.1, -0.9, -5]} />}
-        {entered && <Rock scale={3} position={[0, 0, -2]} />}
+        {entered && <Ruin scale={1} position={[-0.1, -0.29, -3]} />}
+        {entered && <Rock scale={0.5} position={[0, 0, -2]} />}
       </Portal>
 
       {/* Sahel Portal */}
       <Portal 
-        texture="textures/sahel.jpg" 
+        skyTexture="textures/sky.jpg"
+        groundTexture="textures/ground.jpg"
         name="Sahel" 
         color="#e2f0f7" 
         position={[3, 0, 0]}  
@@ -78,7 +80,8 @@ export const Experience = ({ setIsInPortal }) => {
 
       {/* Cap Bon Portal */}
       <Portal 
-        texture="textures/capbon.jpg" 
+        skyTexture="textures/sky.jpg"
+        groundTexture="textures/ground.jpg"
         name="Cap Bon" 
         color="#e4c04a" 
         position={[-3, 0, 0]}  
@@ -88,7 +91,7 @@ export const Experience = ({ setIsInPortal }) => {
         hovered={hovered} 
         setHovered={setHovered}
       >
-        <Flower scale={0.4} position={[0, 0.1, 0]} hovered={hovered === "Flower"} entered={entered}/>
+        <Flower scale={0.3} position={[0, 0.7, 0]} hovered={hovered === "Flower"} entered={entered}/>
       </Portal>
     </>
   );

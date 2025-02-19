@@ -3185,27 +3185,27 @@
   "buffers": [
     {
       "byteLength": 1904440,
-      "uri": "rock.bin"
+      "uri": "scene.bin"
     }
   ],
   "images": [
     {
-      "uri": "rock_textures/Cacti001.002_baseColor.png"
+      "uri": "textures/Cacti001.002_baseColor.png"
     },
     {
-      "uri": "rock_textures/Cacti001.002_normal.png"
+      "uri": "textures/Cacti001.002_normal.png"
     },
     {
-      "uri": "rock_textures/Cacti.010_baseColor.png"
+      "uri": "textures/Cacti.010_baseColor.png"
     },
     {
-      "uri": "rock_textures/CactiNeedles.005_baseColor.png"
+      "uri": "textures/CactiNeedles.005_baseColor.png"
     },
     {
-      "uri": "rock_textures/TerrainChunk1_baseColor.png"
+      "uri": "textures/TerrainChunk1_baseColor.png"
     },
     {
-      "uri": "rock_textures/TerrainChunk1_normal.png"
+      "uri": "textures/TerrainChunk1_normal.png"
     }
   ],
   "materials": [
