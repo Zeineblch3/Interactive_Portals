@@ -64,7 +64,7 @@ export const Experience = ({ setIsInPortal }) => {
         <Tree scale={0.9} position={[0, 0.3, -0.5]} hovered={hovered === "Tree"} entered={entered} />
 
         {/* Scene will only appear inside the portal when entered */}
-        {entered && <Ruin scale={1} position={[-0.1, -0.29, -3]} />}
+        {entered && <Ruin scale={1} position={[-0.1, -0.29, -5]} />}
         {entered && <Rock scale={0.5} position={[0, 0, -2]} />}
       </Portal>
 

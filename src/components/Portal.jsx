@@ -42,13 +42,13 @@ const Portal = ({ texture, name, color, active, setActive, setHovered, children,
 
                     {/* Top Half-Sphere (Sky) */}
                     <mesh position={[0, 0, 0]}>
-                        <sphereGeometry args={[5, 64, 64, 0, Math.PI * 2, 0, Math.PI * 0.7]} />
+                        <sphereGeometry args={[10, 64, 64, 0, Math.PI * 2, 0, Math.PI * 0.7]} />
                         <meshStandardMaterial map={skyMap} side={THREE.BackSide} /> {/* Sky texture */}
                     </mesh>
 
                     {/* Realistic Filled Volume (Ground) */}
                     <mesh position={[0, -1.33, 0]}> {/* Adjust position to anchor at the bottom */}
-                        <cylinderGeometry args={[5, 5, 0.801, 64]} /> {/* Cylinder to represent the ground */}
+                        <cylinderGeometry args={[20, 20, 0.801, 64]} /> {/* Cylinder to represent the ground */}
                         <meshStandardMaterial map={groundMap} side={THREE.FrontSide} /> {/* Ground texture */}
                     </ mesh>
                 </MeshPortalMaterial>
