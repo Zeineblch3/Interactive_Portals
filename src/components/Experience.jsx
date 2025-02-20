@@ -7,7 +7,10 @@ import Tree from "./Tree";
 import Shellfish from "./Shellfish";
 import Flower from "./Flower";
 import Ruin from "./Ruin";
-import Rock from "./Rock";
+import Status from "./Status";
+import Standstone1 from "./Standstone1";
+import Stone from "./Stone";
+import Star_war from "./Star_war";
 
 export const Experience = ({ setIsInPortal }) => {
   const [active, setActive] = useState(null);
@@ -26,7 +29,7 @@ export const Experience = ({ setIsInPortal }) => {
       scene.getObjectByName(active).getWorldPosition(targetPosition);
       
       controlsRef.current.setLookAt(
-        0, 1.5, 5, 
+        0, 1.5, 10, 
         targetPosition.x, targetPosition.y, targetPosition.z, 
         true
       );
@@ -36,6 +39,7 @@ export const Experience = ({ setIsInPortal }) => {
       controlsRef.current.setLookAt(0, 1.5, 10, 0, 0, 0, true);
     }
   }, [active]);
+  
 
   return (
     <>
@@ -45,13 +49,14 @@ export const Experience = ({ setIsInPortal }) => {
         ref={controlsRef} 
         maxPolarAngle={Math.PI / 2} 
         minPolarAngle={Math.PI / 2 - Math.PI * 0.4}  
-        maxDistance={8} // Limit zoom out distance
-
+        maxDistance={30} // Limit zoom out distance
+        smoothTime={0.1}  // Reduce to make transitions quicker
+        zoomSpeed={1.5}   // Increase for faster zooming
       />
 
       {/* Sahara Portal */}
       <Portal 
-        skyTexture="textures/sky.jpg"
+        skyTexture="textures/sky.png"
         groundTexture="textures/ground.jpg"
         name="Sahara" 
         color="#e09758" 
@@ -64,8 +69,12 @@ export const Experience = ({ setIsInPortal }) => {
         <Tree scale={0.9} position={[0, 0.3, -0.5]} hovered={hovered === "Tree"} entered={entered} />
 
         {/* Scene will only appear inside the portal when entered */}
-        {entered && <Ruin scale={1} position={[-0.1, -0.29, -5]} />}
-        {entered && <Rock scale={0.5} position={[0, 0, -2]} />}
+        {entered && <Ruin scale={2} position={[-7, -0.04, -0.5]} rotation={[0, Math.PI / 2, 0]}/>}
+        {entered && <Status scale={2} position={[-6, -1, -4]} rotation={[0, Math.PI / 4, 0]}/>}
+        {entered && <Standstone1 scale={2} position={[-3.8, -1.2, -7]} />}
+        {entered && <Stone scale={2} position={[-5, -1, -6]} />}
+        {entered && <Star_war scale={1.5} position={[5, -1, -5]} rotation={[0, -Math.PI / 4, 0]}/>}
+
       </Portal>
 
       {/* Sahel Portal */}
@@ -86,7 +95,7 @@ export const Experience = ({ setIsInPortal }) => {
 
       {/* Cap Bon Portal */}
       <Portal 
-        skyTexture="textures/sky.jpg"
+        skyTexture="textures/forest.jpg"
         groundTexture="textures/ground.jpg"
         name="Cap Bon" 
         color="#4F7942" 

@@ -1,0 +1,348 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.14636699855327606,
+        0.15625900030136108,
+        0.717553973197937
+      ],
+      "min": [
+        -0.1666329950094223,
+        -0.11568000167608261,
+        0.15598106384277344
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 786384,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.9999178051948547,
+        0.9999602437019348,
+        0.9999638199806213
+      ],
+      "min": [
+        -0.9999418258666992,
+        -0.9999943971633911,
+        -0.9999498128890991
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.9982950091362,
+        0.9999979734420776
+      ],
+      "min": [
+        0.000811497971881181,
+        4.9769900215324014e-05
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 360630,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1572768,
+      "componentType": 5126,
+      "count": 8641,
+      "max": [
+        0.0845268964767456,
+        0.1527310013771057,
+        0.7049490213394165
+      ],
+      "min": [
+        -0.17107300460338593,
+        -0.10498201102018356,
+        0.1582379937171936
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1676460,
+      "componentType": 5126,
+      "count": 8641,
+      "max": [
+        0.9999008178710938,
+        0.9990990161895752,
+        0.9999163150787354
+      ],
+      "min": [
+        -0.9999666810035706,
+        -0.9999879598617554,
+        -0.9828252196311951
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 524256,
+      "componentType": 5126,
+      "count": 8641,
+      "max": [
+        0.9022380113601685,
+        0.960004985332489
+      ],
+      "min": [
+        0.018611300736665726,
+        0.0006509419763460755
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1442520,
+      "componentType": 5125,
+      "count": 47154,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1780152,
+      "componentType": 5126,
+      "count": 909,
+      "max": [
+        0.10301391035318375,
+        0.03511371091008186,
+        0.17263808846473694
+      ],
+      "min": [
+        -0.056847915053367615,
+        -0.08064546436071396,
+        0.15598106384277344
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1791060,
+      "componentType": 5126,
+      "count": 909,
+      "max": [
+        0.7084822654724121,
+        0.5339709520339966,
+        -0.37854793667793274
+      ],
+      "min": [
+        -0.9086754322052002,
+        -0.7241530418395996,
+        -0.9999160170555115
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 593384,
+      "componentType": 5126,
+      "count": 909,
+      "max": [
+        0.0,
+        0.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1631136,
+      "componentType": 5125,
+      "count": 4602,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Fabian Mohr (https://sketchfab.com/fabianmohr)",
+      "license": "SKETCHFAB Standard (https://sketchfab.com/licenses)",
+      "source": "https://sketchfab.com/3d-models/augustus-bevilacqua-89db2fd9bcc04ef78a9e2695ce338006",
+      "title": "Augustus Bevilacqua"
+    },
+    "generator": "Sketchfab-16.51.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 1649544,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 600656,
+      "byteOffset": 1649544,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1801968,
+      "byteOffset": 2250200,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 4052168,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_unlit"
+  ],
+  "images": [
+    {
+      "uri": "textures/material_1_baseColor.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "name": "material_1",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Object_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Object_1",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Object_2",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        0.9990943074226379,
+        -0.04254705831408501,
+        0.000532839098013928,
+        0.0,
+        0.007055509835481644,
+        0.15330302715301536,
+        -0.9881540536880493,
+        0.0,
+        0.04196136072278023,
+        0.9872628450393677,
+        0.15346437692642234,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2,
+        3,
+        4
+      ],
+      "name": "glyptothek-augustus-model-meshmixer.obj.cleaner.materialmerger.gles"
+    },
+    {
+      "mesh": 0,
+      "name": "Object_2"
+    },
+    {
+      "mesh": 1,
+      "name": "Object_3"
+    },
+    {
+      "mesh": 2,
+      "name": "Object_4"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}

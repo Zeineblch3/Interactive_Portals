@@ -42,7 +42,7 @@ const Portal = ({ texture, name, color, active, setActive, setHovered, children,
 
                     {/* Top Half-Sphere (Sky) */}
                     <mesh position={[0, 0, 0]}>
-                        <sphereGeometry args={[10, 64, 64, 0, Math.PI * 2, 0, Math.PI * 0.7]} />
+                        <sphereGeometry args={[10 /*size of the sphere*/, 64, 64, 0, Math.PI * 2, 0, Math.PI * 0.7]} />
                         <meshStandardMaterial map={skyMap} side={THREE.BackSide} /> {/* Sky texture */}
                     </mesh>
 
