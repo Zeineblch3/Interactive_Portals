@@ -17,15 +17,16 @@ export const Experience = ({ setIsInPortal }) => {
   const [hovered, setHovered] = useState(null);
   const [entered, setEntered] = useState(false); // Track if inside a portal
   const controlsRef = useRef();
-  useCursor(hovered);
+  useCursor(hovered); //when hovered change the cursor
   const scene = useThree((state) => state.scene);
 
+  //camera mvt
   useEffect(() => {
     if (active) {
       setIsInPortal(true); // Hide Navbar when entering a portal
       setEntered(true); // Mark as entered so Scene loads
 
-      const targetPosition = new THREE.Vector3();
+      const targetPosition = new THREE.Vector3(); //calculate camera position
       scene.getObjectByName(active).getWorldPosition(targetPosition);
       
       controlsRef.current.setLookAt(
@@ -49,7 +50,7 @@ export const Experience = ({ setIsInPortal }) => {
         ref={controlsRef} 
         maxPolarAngle={Math.PI / 2} 
         minPolarAngle={Math.PI / 2 - Math.PI * 0.4}  
-        maxDistance={30} // Limit zoom out distance
+        maxDistance={15} // Limit zoom out distance
         smoothTime={0.1}  // Reduce to make transitions quicker
         zoomSpeed={1.5}   // Increase for faster zooming
       />

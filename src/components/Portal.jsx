@@ -4,7 +4,7 @@ import * as THREE from "three";
 import { useFrame } from "@react-three/fiber";
 import { easing } from "maath";
 
-const Portal = ({ texture, name, color, active, setActive, setHovered, children, position = [0, 0, 0], skyTexture, groundTexture }) => {
+const Portal = ({ name, color, active, setActive, setHovered, children, position = [0, 0, 0], skyTexture, groundTexture }) => {
     const portalMaterial = useRef();
     const audioRef = useRef(new Audio("/audio/magic-smite-6012_soNDHGLI.mp3"));
 
@@ -14,7 +14,7 @@ const Portal = ({ texture, name, color, active, setActive, setHovered, children,
 
     useFrame((_state, delta) => {
         const worldOpen = active === name;
-        easing.damp(portalMaterial.current, "blend", worldOpen ? 1 : 0, 0.2, delta);
+        easing.damp(portalMaterial.current, "blend", worldOpen ? 1 : 0, 0.2 /*speed*/, delta);
     });
 
     return (
