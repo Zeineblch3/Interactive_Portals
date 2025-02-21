@@ -1,7 +1,7 @@
 import { Environment, CameraControls, useCursor } from "@react-three/drei";
 import { useThree } from "@react-three/fiber";
 import { useEffect, useRef, useState } from "react";
-import * as THREE from "three"; // Make sure THREE is imported
+import * as THREE from "three"; 
 import Portal from "./Portal"; 
 import Tree from "./Tree"; 
 import Shellfish from "./Shellfish";
@@ -50,7 +50,7 @@ export const Experience = ({ setIsInPortal }) => {
         ref={controlsRef} 
         maxPolarAngle={Math.PI / 2} 
         minPolarAngle={Math.PI / 2 - Math.PI * 0.4}  
-        maxDistance={15} // Limit zoom out distance
+        maxDistance={30} // Limit zoom out distance
         smoothTime={0.1}  // Reduce to make transitions quicker
         zoomSpeed={1.5}   // Increase for faster zooming
       />

@@ -41,9 +41,9 @@ const Portal = ({ name, color, active, setActive, setHovered, children, position
                     {children}
 
                     {/* Top Half-Sphere (Sky) */}
-                    <mesh position={[0, 0, 0]}>
-                        <sphereGeometry args={[10 /*size of the sphere*/, 64, 64, 0, Math.PI * 2, 0, Math.PI * 0.7]} />
-                        <meshStandardMaterial map={skyMap} side={THREE.BackSide} /> {/* Sky texture */}
+                    <mesh position={[0, -1.33, 0]}> {/* Raised to only be above */}
+                        <sphereGeometry args={[10, 64, 64, 0, Math.PI * 2, 0, Math.PI / 2]} />
+                        <meshStandardMaterial map={skyMap} side={THREE.BackSide} />
                     </mesh>
 
                     {/* Realistic Filled Volume (Ground) */}
