@@ -50,7 +50,7 @@ export const Experience = ({ setIsInPortal }) => {
         ref={controlsRef} 
         maxPolarAngle={Math.PI / 2} 
         minPolarAngle={Math.PI / 2 - Math.PI * 0.4}  
-        maxDistance={30} // Limit zoom out distance
+        maxDistance={15} // Limit zoom out distance
         smoothTime={0.1}  // Reduce to make transitions quicker
         zoomSpeed={1.5}   // Increase for faster zooming
       />
