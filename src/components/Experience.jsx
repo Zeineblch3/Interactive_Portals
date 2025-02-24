@@ -11,6 +11,11 @@ import Status from "./Status";
 import Standstone1 from "./Standstone1";
 import Stone from "./Stone";
 import Star_war from "./Star_war";
+import Palm_tree from "./Palm_tree";
+import Turtle from "./Turtle";
+import Shell from "./Shell";
+import Boat from "./Boat";
+
 
 export const Experience = ({ setIsInPortal }) => {
   const [active, setActive] = useState(null);
@@ -40,7 +45,8 @@ export const Experience = ({ setIsInPortal }) => {
       controlsRef.current.setLookAt(0, 1.5, 10, 0, 0, 0, true);
     }
   }, [active]);
-  
+
+
 
   return (
     <>
@@ -50,7 +56,7 @@ export const Experience = ({ setIsInPortal }) => {
         ref={controlsRef} 
         maxPolarAngle={Math.PI / 2} 
         minPolarAngle={Math.PI / 2 - Math.PI * 0.4}  
-        maxDistance={15} // Limit zoom out distance
+        maxDistance={17} // Limit zoom out distance
         smoothTime={0.1}  // Reduce to make transitions quicker
         zoomSpeed={1.5}   // Increase for faster zooming
       />
@@ -76,6 +82,8 @@ export const Experience = ({ setIsInPortal }) => {
         {entered && <Stone scale={2} position={[-5, -1, -6]} />}
         {entered && <Star_war scale={1.5} position={[5, -1, -5]} rotation={[0, -Math.PI / 4, 0]}/>}
 
+        
+
       </Portal>
 
       {/* Sahel Portal */}
@@ -92,6 +100,12 @@ export const Experience = ({ setIsInPortal }) => {
         setHovered={setHovered}
       >
         <Shellfish scale={9} position={[0, 0, 0]} hovered={hovered === "Shellfish"} entered={entered}/>
+        {entered && <Palm_tree scale={0.002} position={[5, -1, -4]} />}
+        {entered && <Turtle scale={0.2} position={[-5, -0.59, -5]} rotation={[0, -2.2, 0]}/>}
+        {entered && <Shell scale={0.15} position={[3, -0.7, -3]} rotation={[0, 2.2, 0]}/>}
+        {entered && <Boat scale={0.5} position={[0, -0.9, -4]} rotation={[0, 2.2, 0]}/>}
+
+
       </Portal>
 
       {/* Cap Bon Portal */}

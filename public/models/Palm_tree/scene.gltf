@@ -1,0 +1,444 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 2611,
+      "max": [
+        612.5005493164063,
+        376.63665771484375,
+        609.41357421875
+      ],
+      "min": [
+        -576.30126953125,
+        -278.2675476074219,
+        -553.229736328125
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 31332,
+      "componentType": 5126,
+      "count": 2611,
+      "max": [
+        0.9596360325813293,
+        0.9989518523216248,
+        0.9922701716423035
+      ],
+      "min": [
+        -0.986095666885376,
+        -0.5744548439979553,
+        -0.9605095982551575
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 2611,
+      "max": [
+        0.9820732474327087,
+        0.8092677593231201,
+        0.9938045144081116,
+        1.0
+      ],
+      "min": [
+        -0.9957283735275269,
+        -0.8336383104324341,
+        -0.9929178357124329,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 2611,
+      "max": [
+        0.6678847074508667,
+        0.8996776342391968
+      ],
+      "min": [
+        0.3314003050327301,
+        0.08236253261566162
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 20888,
+      "componentType": 5126,
+      "count": 2611,
+      "max": [
+        0.6678847074508667,
+        0.8996776342391968
+      ],
+      "min": [
+        0.3314003050327301,
+        0.08236253261566162
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 9996,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 62664,
+      "componentType": 5126,
+      "count": 81,
+      "max": [
+        359.71405029296875,
+        1937.0032958984375,
+        92.75977325439453
+      ],
+      "min": [
+        -95.61784362792969,
+        -18.874977111816406,
+        -92.76018524169922
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 63636,
+      "componentType": 5126,
+      "count": 81,
+      "max": [
+        0.9996116161346436,
+        0.9672961235046387,
+        0.9999359846115112
+      ],
+      "min": [
+        -0.9997193813323975,
+        -0.5838026404380798,
+        -0.9999363422393799
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 41776,
+      "componentType": 5126,
+      "count": 81,
+      "max": [
+        0.30315065383911133,
+        0.9970481991767883
+      ],
+      "min": [
+        0.052904944866895676,
+        0.00010595587082207203
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 42424,
+      "componentType": 5126,
+      "count": 81,
+      "max": [
+        0.30315065383911133,
+        0.9970481991767883
+      ],
+      "min": [
+        0.052904944866895676,
+        0.00010595587082207203
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 39984,
+      "componentType": 5125,
+      "count": 384,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "assetfactory (https://sketchfab.com/assetfactory)",
+      "license": "SKETCHFAB Standard (https://sketchfab.com/licenses)",
+      "source": "https://sketchfab.com/3d-models/tropical-palm-tree-e9555d51399a408abff3f373c00e17ea",
+      "title": "Tropical Palm Tree"
+    },
+    "generator": "Sketchfab-16.33.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 41520,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 43072,
+      "byteOffset": 41520,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 64608,
+      "byteOffset": 84592,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 41776,
+      "byteOffset": 149200,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 190976,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_emissive_strength",
+    "KHR_materials_clearcoat"
+  ],
+  "images": [
+    {
+      "uri": "textures/palm_leaves_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/palm_leaves_normal.jpeg"
+    },
+    {
+      "uri": "textures/palm_trunk_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/palm_trunk_metallicRoughness.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissiveTexture": {
+        "index": 0
+      },
+      "extensions": {
+        "KHR_materials_clearcoat": {
+          "clearcoatFactor": 1.0,
+          "clearcoatNormalTexture": {
+            "index": 1,
+            "scale": 0.4224466463414634
+          },
+          "clearcoatRoughnessFactor": 0.4956173780487805
+        },
+        "KHR_materials_emissive_strength": {
+          "emissiveStrength": 1.602515243902439
+        }
+      },
+      "name": "palm_leaves",
+      "normalTexture": {
+        "index": 1,
+        "scale": 0.4224466463414634
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.0
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "palm_trunk",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 2
+        },
+        "metallicFactor": 0.0,
+        "metallicRoughnessTexture": {
+          "index": 3
+        },
+        "roughnessFactor": 0.9407393292682927
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "palm_leaves_palm_leaves_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          },
+          "indices": 5,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "palm_trunk_palm_trunk_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 7,
+            "POSITION": 6,
+            "TEXCOORD_0": 8,
+            "TEXCOORD_1": 9
+          },
+          "indices": 10,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "9cad833acf874d8099b904595d9f30b6.fbx"
+    },
+    {
+      "children": [
+        3,
+        5
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        317.1289978027344,
+        1885.1925048828125,
+        0.00025329223717562854,
+        1.0
+      ],
+      "name": "palm_leaves"
+    },
+    {
+      "mesh": 0,
+      "name": "palm_leaves_palm_leaves_0"
+    },
+    {
+      "children": [
+        6
+      ],
+      "name": "palm_trunk"
+    },
+    {
+      "mesh": 1,
+      "name": "palm_trunk_palm_trunk_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    }
+  ]
+}

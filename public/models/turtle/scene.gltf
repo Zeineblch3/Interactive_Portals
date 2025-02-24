@@ -1,0 +1,292 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 2281,
+      "max": [
+        5.579680442810059,
+        1.990424394607544,
+        5.933184623718262
+      ],
+      "min": [
+        -5.578583240509033,
+        -2.371049165725708,
+        -3.8970577716827393
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 27372,
+      "componentType": 5126,
+      "count": 2281,
+      "max": [
+        0.9995511174201965,
+        0.9999702572822571,
+        0.9985588788986206
+      ],
+      "min": [
+        -0.999595046043396,
+        -0.999995231628418,
+        -0.9999200701713562
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 2281,
+      "max": [
+        1.0,
+        0.9988565444946289,
+        0.9988250136375427,
+        1.0
+      ],
+      "min": [
+        -0.9966207146644592,
+        -0.9988552927970886,
+        -0.9936159253120422,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 2281,
+      "max": [
+        0.9862099885940552,
+        0.8603600263595581
+      ],
+      "min": [
+        0.017260000109672546,
+        0.12703000009059906
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 18248,
+      "componentType": 5126,
+      "count": 2281,
+      "max": [
+        0.9862099885940552,
+        0.8603600263595581
+      ],
+      "min": [
+        0.017260000109672546,
+        0.12703000009059906
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 12552,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "boxgizmo (https://sketchfab.com/boxgizmo)",
+      "license": "SKETCHFAB Standard (https://sketchfab.com/licenses)",
+      "source": "https://sketchfab.com/3d-models/leatherback-sea-turtle-dermochelys-coriacea-f17aa6bf783d4ca89d44ae6bfc735702",
+      "title": "Leatherback Sea Turtle Dermochelys Coriacea"
+    },
+    "generator": "Sketchfab-16.53.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 50208,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 36496,
+      "byteOffset": 50208,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 54744,
+      "byteOffset": 86704,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 36496,
+      "byteOffset": 141448,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 177944,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/lpgdefaultMat1_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/lpgdefaultMat1_normal.jpeg"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "lpgdefaultMat1",
+      "normalTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.6
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "lpg:ZBrushPolyMesh3D_lpg:defaultMat1_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          },
+          "indices": 5,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Zone2_038_Leatherback Sea Turtle Dermochelys Coriacea.FBX"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.9720266570846103,
+        0.23487055566187368,
+        0.0,
+        0.0,
+        -0.23487055566187368,
+        0.9720266570846103,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "lpg:ZBrushPolyMesh3D"
+    },
+    {
+      "mesh": 0,
+      "name": "lpg:ZBrushPolyMesh3D_lpg:defaultMat1_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    }
+  ]
+}

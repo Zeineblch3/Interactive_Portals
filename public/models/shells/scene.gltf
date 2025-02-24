@@ -1,0 +1,474 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 24162,
+      "max": [
+        5.1233110427856445,
+        2.969022750854492,
+        3.510316848754883
+      ],
+      "min": [
+        -4.771015167236328,
+        -4.8784966468811035,
+        -1.8725366592407227
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 289944,
+      "componentType": 5126,
+      "count": 24162,
+      "max": [
+        0.9995105266571045,
+        0.9998024702072144,
+        0.9999741315841675
+      ],
+      "min": [
+        -0.9985610842704773,
+        -0.9999708533287048,
+        -0.9999674558639526
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 24162,
+      "max": [
+        0.999939501285553,
+        0.9999811053276062,
+        0.999718427658081,
+        1.0
+      ],
+      "min": [
+        -0.9999634027481079,
+        -0.9999229907989502,
+        -0.9998523592948914,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 24162,
+      "max": [
+        0.7314000129699707,
+        0.9920499920845032
+      ],
+      "min": [
+        0.003389999968931079,
+        0.003389999968931079
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 193296,
+      "componentType": 5126,
+      "count": 24162,
+      "max": [
+        0.7314000129699707,
+        0.9920499920845032
+      ],
+      "min": [
+        0.003389999968931079,
+        0.003389999968931079
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 141504,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 579888,
+      "componentType": 5126,
+      "count": 819,
+      "max": [
+        0.9467796087265015,
+        1.3967069387435913,
+        -0.37925052642822266
+      ],
+      "min": [
+        -2.538102149963379,
+        -1.3956279754638672,
+        -0.9316067695617676
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 589716,
+      "componentType": 5126,
+      "count": 819,
+      "max": [
+        0.9848849177360535,
+        0.9978070855140686,
+        0.9998533129692078
+      ],
+      "min": [
+        -0.9981948137283325,
+        -0.9978617429733276,
+        -0.9961267709732056
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 386592,
+      "componentType": 5126,
+      "count": 819,
+      "max": [
+        0.9897575974464417,
+        0.9518975019454956,
+        0.9990668892860413,
+        1.0
+      ],
+      "min": [
+        -0.9982136487960815,
+        -0.7830209732055664,
+        -0.9979074597358704,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 386592,
+      "componentType": 5126,
+      "count": 819,
+      "max": [
+        0.18848353624343872,
+        0.058753851801157
+      ],
+      "min": [
+        0.12173038721084595,
+        0.0073930490761995316
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 566016,
+      "componentType": 5125,
+      "count": 4608,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "boxgizmo (https://sketchfab.com/boxgizmo)",
+      "license": "SKETCHFAB Standard (https://sketchfab.com/licenses)",
+      "source": "https://sketchfab.com/3d-models/sea-snail-conch-c0c9e23610754ea7b32fa0c03684bf74",
+      "title": "Sea Snail Conch"
+    },
+    "generator": "Sketchfab-16.53.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 584448,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 393144,
+      "byteOffset": 584448,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 599544,
+      "byteOffset": 977592,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 399696,
+      "byteOffset": 1577136,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1976832,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/blinn2_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/blinn2_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "blinn2",
+      "normalTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.6
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "B010_ceratostomaFournieriB009_umboniumThomasilambert4",
+      "normalTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.6
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "B010_ceratostomaFournieri:B010_ceratostomaFournieri:sjl1:ZBrushPolyMesh3D_blinn2_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4
+          },
+          "indices": 5,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "B010_ceratostomaFournieri:B009_umboniumThomasi:polySurface4_B010_ceratostomaFournieri:B009_umboniumThomasi:lambert4_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 7,
+            "POSITION": 6,
+            "TANGENT": 8,
+            "TEXCOORD_0": 9
+          },
+          "indices": 10,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "zone1_B10_Sea Snail Conch.FBX"
+    },
+    {
+      "children": [
+        3,
+        6
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.9999999999999867,
+        1.6292068494294582e-07,
+        0.0,
+        0.0,
+        -1.6292068494294582e-07,
+        0.9999999999999867,
+        0.0,
+        0.1761479377746582,
+        -0.9547369480133057,
+        0.8188900947570801,
+        1.0
+      ],
+      "name": "B010_ceratostomaFournieri:B010_ceratostomaFournieri:sjl1:ZBrushPolyMesh3D"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        -0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -0.1761479377746582,
+        0.9547369480133057,
+        -0.8188900947570801,
+        1.0
+      ],
+      "name": "Object_4"
+    },
+    {
+      "mesh": 0,
+      "name": "B010_ceratostomaFournieri:B010_ceratostomaFournieri:sjl1:ZBrushPolyMesh3D_blinn2_0"
+    },
+    {
+      "children": [
+        7
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.9999999999999867,
+        1.6292068494294582e-07,
+        0.0,
+        0.0,
+        -1.6292068494294582e-07,
+        0.9999999999999867,
+        0.0,
+        -0.7956612706184387,
+        0.0005395412445068359,
+        -0.6554286479949951,
+        1.0
+      ],
+      "name": "B010_ceratostomaFournieri:B009_umboniumThomasi:polySurface4"
+    },
+    {
+      "children": [
+        8
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        -0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.7956612706184387,
+        -0.0005394816398620605,
+        0.6554286479949951,
+        1.0
+      ],
+      "name": "Object_7"
+    },
+    {
+      "mesh": 1,
+      "name": "B010_ceratostomaFournieri:B009_umboniumThomasi:polySurface4_B010_ceratostomaFournieri:B009_umboniumThomasi:lambert4_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    }
+  ]
+}
